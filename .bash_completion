@@ -1,5 +1,5 @@
 if test -d $HOME/.bash_completion.d; then
-        for completion in $HOME/.bash_completion.d/; do
+        for completion in $HOME/.bash_completion.d/*; do
                 source $completion
         done
 fi
